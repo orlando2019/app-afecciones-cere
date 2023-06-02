@@ -86,6 +86,9 @@ def main():
         st.success('### {}'.format(names[np.argmax(predictS)]))
         # st.info('### Score: {}'.format(round(np.amax(predictS) * 100, 2)))
 
+    st.markdown('<p class="footer__copy"> © Orlando Ospino H - 2023</p>',
+                unsafe_allow_html=True)
+
 
 if __name__ == '__main__':
     main()
